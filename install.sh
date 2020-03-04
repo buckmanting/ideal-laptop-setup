@@ -25,8 +25,21 @@ mkdir ~/.nvm
 echo "export NVM_DIR=~/.nvm" >> ~/.zshrc
 echo "source $(brew --prefix nvm)/nvm.sh" >> ~/.zshrc
 
+source ~/.zshrc
+echo $NVM_DIR
+
+#### compaudit | xargs chmod g-w <-- fixed my zsh insecure issue
+
 ## install iterm
 brew cask install iTerm2
+
+### install common global npm packages
+npm i -g @angular/cli pa11y
+
+### install Firefox Developer Edition
+brew cask install homebrew/cask-versions/firefoxdeveloperedition
+### install Edge
+brew cask install microsoft-edge
 
 ## setup ssh keys
 ### generate
