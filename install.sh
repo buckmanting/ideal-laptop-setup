@@ -41,6 +41,10 @@ brew cask install homebrew/cask-versions/firefoxdeveloperedition
 ### install Edge
 brew cask install microsoft-edge
 
+### configure git
+git config --global alias.co checkout
+git config --global alias.s status
+
 ## setup ssh keys
 ### generate
 read -p 'GitHub email: ' emailvar
