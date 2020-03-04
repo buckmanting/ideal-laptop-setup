@@ -23,6 +23,8 @@
 |Firefox Developer Edition|Browser|`brew cask install firefox-developer-edition`|
 |Edge|Browser|`brew cask install microsoft-edge`|
 
+for zsh configuration see this [interesting blog](https://sourabhbajaj.com/mac-setup/iTerm/zsh.html)
+for zsh themes look on the [oh my zsh github](https://github.com/ohmyzsh/ohmyzsh/wiki/themes)
 ## sn specific
 
 - set up ssh keys
