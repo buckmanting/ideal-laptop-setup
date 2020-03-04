@@ -101,7 +101,7 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
 
 # open application
-alias ws='open -a /Applications/WebStorm.app '
+alias ws='webstorm '
 alias vault='echo "install me dickhead", /Applications/vault '
 
 # quality of life shit
