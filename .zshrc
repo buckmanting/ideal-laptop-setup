@@ -104,7 +104,7 @@ source $ZSH/oh-my-zsh.sh
 alias ws='open -a /Applications/WebStorm.app '
 alias vault='echo "install me dickhead", /Applications/vault '
 
-# quaility of life shit
+# quality of life shit
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'

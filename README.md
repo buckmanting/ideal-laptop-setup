@@ -25,6 +25,8 @@
 
 for zsh configuration see this [interesting blog](https://sourabhbajaj.com/mac-setup/iTerm/zsh.html)
 for zsh themes look on the [oh my zsh github](https://github.com/ohmyzsh/ohmyzsh/wiki/themes)
+
+see my other repo for [my idea bash profile](https://github.com/springerBuck/bash_profile/blob/master/.bash_profile)
 ## sn specific
 
 - set up ssh keys
