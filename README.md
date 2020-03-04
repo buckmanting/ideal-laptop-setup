@@ -9,6 +9,7 @@
 |PHPSTorm|IDE|JBToolbox|
 |Rider|IDE|JBToolbox|
 |Postman|API Client|https://www.postman.com/|
+|brew|package manager|`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`|
 |git cli|source control|`brew install git`|
 |nvm|node version manager|`brew install nvm`(see [tutorial](https://github.com/nijicha/install_nodejs_and_yarn_homebrew))|
 |iTerm|terminal|`brew cask install iterm2`|
