@@ -97,3 +97,29 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Aliases
+
+# open application
+alias ws='open -a /Applications/WebStorm.app '
+alias vault='echo "install me dickhead", /Applications/vault '
+
+# quaility of life shit
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+
+# show open ports
+alias ports='netstat -tulanp'
+
+# git helpers
+alias gs='git status'
+alias gd='git diff'
+alias pull='git pull'
+alias push='git push'
+alias fetch='git fetch -ap --all'
+alias merge-base='git merge-base master '
+alias git-history='git log --graph --abbrev-commit --pretty=oneline'
+alias gcom='git commit -am '
+alias rm-old-branches='git branch -vv | grep ": gone]" | awk "{print $1}" | xargs git branch -D'
+
