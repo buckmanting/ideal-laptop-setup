@@ -3,13 +3,13 @@ brew doctor
 # install all other tools, following tutorials
 
 ## install git
-### brew install git
+brew install git
 
 ## install zsh
 brew install zsh
 ### set zsh as your default shell, requires password
 chsh -s /bin/zsh
-## sudo port install zsh zsh-completions <- doesn't work 🤷‍♂️
+sudo port install zsh zsh-completions # <- doesn't work 🤷‍♂️
 
 ### install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
