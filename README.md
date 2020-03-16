@@ -28,3 +28,6 @@ for zsh themes look on the [oh my zsh github](https://github.com/ohmyzsh/ohmyzsh
 
 see my other repo for [my idea bash profile](https://github.com/springerBuck/bash_profile/blob/master/.bash_profile)
 
+## setting it up
+`curl -s https://raw.githubusercontent.com/springerBuck/ideal-laptop-setup/master/install.sh`
+
